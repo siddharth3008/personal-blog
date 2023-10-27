@@ -1,0 +1,136 @@
+
+h1{
+    text-align: center;
+    font-size: larger;
+    font: bolder;
+    text-decoration: underline;
+  
+}
+input{
+    float: right;
+}
+.head{
+    overflow: hidden;
+   background: rgb(0, 162, 255);
+   
+    flex: wrap;
+}
+.con {
+    float: right;
+    padding: 1px;
+    border: none;
+    margin-top: -46px;
+    margin-right: 1px;
+    font-size: 17px;
+    
+  }
+.head  a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    font-size: 17px;
+  }
+  
+  .box1{
+    grid-area: hd;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-size: 431px 246px;
+    box-shadow:5px 3px 6px rgb(0, 162, 255);
+  }
+  .box2{
+    grid-area: hd;
+    border: 2px solid black;
+    overflow: hidden;
+    
+    background-repeat: no-repeat;
+    background-size: 431px 246px;
+    box-shadow:5px 3px 6px rgb(0, 162, 255);
+  }
+  .box3{
+    background-image: url(linkedin\ logo.png);
+    border: 2px solid black;
+    overflow: hidden;
+    
+    background-repeat: no-repeat;
+    background-size: 431px 246px;
+    box-shadow:5px 3px 6px rgb(0, 162, 255);
+  }
+  .box4{
+    border: 2px solid black;
+    overflow: hidden;
+    background-image: url(github.jpg);
+    background-repeat: no-repeat;
+    background-size: 456px 246px;
+    box-shadow:5px 3px 6px rgb(0, 162, 255);
+
+  }
+  .box5{
+    border: 2px solid black;
+    overflow: hidden;
+    background-image: url(twiiter.jpeg);
+    background-repeat: no-repeat;
+    background-size: 456px 246px;
+    box-shadow:5px 3px 6px rgb(0, 162, 255);
+    
+   
+
+  }
+  .box6{
+    
+    border: 2px solid black;
+    overflow: hidden;
+    box-shadow:5px 3px 6px rgb(0, 162, 255);
+    background-repeat: no-repeat;
+    background-size: 410px 250px;
+    background-image: url(images.png);
+
+
+  }
+  .box7{
+   
+    background-image: url(codeday.jpeg);
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: darkcyan;
+    background-repeat: no-repeat;
+    background-size: 431px 246px;
+    box-shadow:5px 3px 6px rgb(0, 162, 255);
+  }
+  .box8{
+    
+  border: 2px solid black;
+  overflow: hidden;
+  background-color: darkcyan;
+  background-repeat: no-repeat;
+  background-size: 431px 246px;
+  box-shadow:5px 3px 6px rgb(0, 162, 255);
+}
+
+  
+  #content{
+   min-height: 1000px;
+   gap: 10px;
+    padding: 20px 20px;
+    border: 2px solid black;
+    background: black;
+    display: grid;
+    grid-template-rows:250px 250px 250px 250px;
+    grid-template-columns: 435px;
+    /* grid-gap: 2px; */
+    grid-template-areas: 
+    "hd hd" 
+    "side side"
+    "foot foot"
+    "ft ft"
+    "form form"
+    ;
+    
+   
+   
+  }
